@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.headings{
+    font-family: 'Acme', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif;
+}
+.paras{
+    font-family: 'Acme', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+/* NAVIGATION BAR */
+.mynav{
+    padding: 0 !important;
+    
+}
+.logo2{
+    
+    width: 100px ; 
+    height: 100px ;
+    border-radius: 50px;
+}
+.myitems{
+    color:rgb(97, 97, 180)  !important;
+
+  }
+  .mydrop{
+      padding: 0 !important;
+  }
+  
+  .myitems:hover{
+        color: white !important;
+      background-color:  rgb(97, 97, 180) !important;
+      border-radius: 10px;
+      
+  }
+  .listitems{
+      padding-left: 30px !important;
+  }
+
+  /* IMAGE AND INTRO */
+  .bigimage{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-image: url('images/body2.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+}
+.main{
+   
+  animation-duration: 2s;
+}
+
+.overlay{
+    height: 120vh;
+    width: 100%;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0,0,0,0,5);
+    border: 0px ;
+   
+}
+.overlay h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60pt;
+    font-weight: bold;
+    color:  rgb(26, 26, 158);
+}
+.overlay p{
+    color:  rgb(26, 26, 158);
+    font-size: 30pt;
+}
+
+@media screen and (max-width: 700px) {
+    .overlay h1{
+    visibility: hidden;   
+ }
+ .overlay p{
+     visibility: hidden;
+ }
+    
+}
+
+
+ /* SOCIETY AND ACTIVITIES  */
+ .myslide{
+     padding: 10px !important;
+background: url("images/bg2.jpg"); 
+border: 1px black solid;   }
+
+#activity{
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+    margin-left: 30px;
+}
+.para{
+    padding:0 0 20px 20px;
+    margin-left: 30px; 
+    color: white;
+    
+
+}
+
+.cards{
+    width: 500px;
+    height: 350px;
+    border: 5px beige solid;
+}
+img.cards:hover{
+    
+    border: 5px black solid;
+}
+.cardpara{
+    color: white;
+}
+.cardhd{
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.cardhd:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+ /* WHY CHOOSE US */
+ .mycont{
+     width: 100%;
+     /* height: 450px; */
+     background-color: bisque;
+     margin: 0 !important;
+     padding: 0 !important;
+     border: 0;
+    
+     
+ }
+ 
+ .mycol{
+    padding: 30px;
+    
+ }
+
+
+.head2{
+    color: rgb(22, 22, 80);
+    text-decoration: underline;
+    padding: 40px 20px 20px 80px !important;
+   
+}
+.choose{
+  
+   margin-top: 30px;
+   
+}
+.main2{
+    animation-duration: 5s !important;
+}
+.features{
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: rgb(22, 22, 80);
+}.col1img{
+    border-radius: 5px;
+    border-style: ridge;
+    margin-bottom: 20px;
+
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 400px;
+    height: 300px;
+}
+@media screen and (max-width: 500px) {
+    .col1img{
+        margin-left: 20px;
+        width: 300px;
+        height: 200px;
+ }
+
+    
+}
+
+/* FOOTER */
+.footer{
+    background-color:rgb(80, 80, 204) ;
+    padding: 10px;
+
+}
+
+.mytext{
+    background-color:rgb(80, 80, 204) ;
+
+    color: beige;
+}
+footer ul li a{
+
+    text-decoration: none;
+    color: beige;
+    background-color:rgb(80, 80, 204) ;
+
+
+}
+footer ul li{
+    /* list-style: url("images/icons8-arrow-48.png"); */
+    list-style: none;
+    background-color:rgb(80, 80, 204) ;
+
+}
+.ftitems li a:hover{
+    
+    color: red;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+/* contact us */
+ .contact{
+    border: 1px black solid;
+    padding-left: 50px;
+    width: 100%;
+    height: 500px;
+    background: url("images/contact.jpg");
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    background-color:rgb(80, 80, 204) ;
+}
+#t1{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    color: #fff;
+    text-decoration: solid;
+
+}
+.details{
+  
+    background-color: white;
+    border: 2px solid;
+    border-style: groove;
+    
+
+}
+.contcol2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+}
+
+
+.contcol2{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 90px;
+}
+.icons1{
+    padding-bottom: 15px;
+}
+.contcol2 ul li{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+.details:hover{
+    background-color: #fff;
+}
+.heading2{
+    margin: 30px 0 30px 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+.contcol{
+    padding: 0!important;
+}
+
+/* map */
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(80, 80, 204);
+}
+
+.iconss{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+
+/* ADMISSION PAGE */
+.bigimage2{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    background-image: url('images/admission.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+}
+.zero{
+
+
+    margin: 0 !important;
+    padding:0 !important;
+}
+.course-p{
+    padding-top: 140px;
+    /* display: flex; */
+
+
+}
+.bgblue{
+    background-color:bisque ;
+}
+
